@@ -65,6 +65,11 @@
     .moon .shots { padding: 24px; align-items: center; background: linear-gradient(90deg, #0b0e18, var(--card)); }
   }
 
+  .tt .pics { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: var(--line); }
+  .tt .pics img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+  .tt h3 { font-size: 26px; }
+  .fine { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 12px; margin-top: 16px !important; }
+
   .about { color: var(--muted); max-width: 40em; }
   .about h2 { color: var(--text); }
   .about p { margin: 0 0 12px; }
@@ -105,6 +110,20 @@
         <ul class="tags"><li>Android live wallpaper</li><li>In testing</li></ul>
         <p>Tonight's real Moon on your home screen: the right phase, the tilt you'd see from where you are, and its size as it moves closer and farther away.</p>
         <p>Real stars twinkle around it, a shooting star drifts by now and then, and the sky follows your local weather, from clear nights to snow and storms. It rests whenever it's out of sight, so it's easy on the battery.</p>
+      </div>
+    </article>
+
+    <article class="project tt">
+      <div class="pics">
+        <img src="media/tt-cove.webp" alt="Our Siren's Cove art: a one-eyed kraken and a singing siren under a full moon">
+        <img src="media/tt-room.webp" alt="Our Summer's Room art: Summer and Soot walking through a sunroom">
+      </div>
+      <div class="body">
+        <h3>Fan-made modes for Tricky Towers</h3>
+        <ul class="tags"><li>Fan project</li><li>Local play</li></ul>
+        <p><strong>Siren's Cove:</strong> build your tower at sea while gulls bonk the top brick and a siren rises to sing one away. Lose the round and a kraken drags your tower under.</p>
+        <p><strong>Summer's Room:</strong> you're shrunk down, building in a giant room while Summer and Soot wander by, sniff your tower and give it a curious tap. Lose the round and a cat knocks it down.</p>
+        <p class="fine">Unofficial, non-commercial fan-made modes for Tricky Towers, designed with Claude. Not affiliated with or endorsed by WeirdBeard. Tricky Towers is © WeirdBeard B.V. Local play only; not available for download.</p>
       </div>
     </article>
 
