@@ -65,6 +65,14 @@
     .moon .shots { padding: 24px; align-items: center; background: linear-gradient(90deg, #0b0e18, var(--card)); }
   }
 
+  .krobe { display: grid; grid-template-columns: 1fr; }
+  .krobe > img { display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: cover; max-height: 420px; }
+  .krobe h3 { color: #f47cc0; }
+  @media (min-width: 760px) {
+    .krobe { grid-template-columns: 1fr 1.3fr; align-items: center; }
+    .krobe > img { max-height: none; }
+  }
+
   .tt .pics { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: var(--line); }
   .tt .pics img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
   .tt h3 { font-size: 26px; }
@@ -110,6 +118,17 @@
         <ul class="tags"><li>Android live wallpaper</li><li>In testing</li></ul>
         <p>Tonight's real Moon on your home screen: the right phase, the tilt you'd see from where you are, and its size as it moves closer and farther away.</p>
         <p>Real stars twinkle around it, a shooting star drifts by now and then, and the sky follows your local weather, from clear nights to snow and storms. It rests whenever it's out of sight, so it's easy on the battery.</p>
+      </div>
+    </article>
+
+    <article class="project krobe">
+      <img src="media/mykrobe.webp" alt="MyKrobe key art: Krobe, an orange microbe, among glowing plants">
+      <div class="body">
+        <h3>MyKrobe</h3>
+        <ul class="tags"><li>2D game</li><li>Early development</li></ul>
+        <p>A game of my own, with art I draw by hand. Krobe is a little microbe getting ready to settle down, build a base and set off on adventures in a dangerous world.</p>
+        <p>Krobe eats the particles drifting through the world, and each kind changes them: protein makes Krobe stronger, caffeine makes them faster. Grow buildings to shape what the world gives you, keep Krobe healthy, and watch out for the bosses.</p>
+        <a class="btn" href="https://www.mykrobe.io/">Visit mykrobe.io</a>
       </div>
     </article>
 
