@@ -78,6 +78,13 @@
   .tt h3 { font-size: 26px; }
   .fine { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 12px; margin-top: 16px !important; }
 
+  .small-h { color: var(--muted); font-size: 13px; letter-spacing: .14em; text-transform: uppercase; margin: 12px 0 6px; }
+  .small-lead { color: var(--muted); margin: 0 0 18px; max-width: 40em; }
+  .tools { display: grid; grid-template-columns: 1fr; gap: 20px; }
+  @media (min-width: 760px) { .tools { grid-template-columns: 1fr 1fr; } }
+  .tools .project { margin-bottom: 0; }
+  .tools .project h3 { font-size: 22px; }
+
   .about { color: var(--muted); max-width: 40em; }
   .about h2 { color: var(--text); }
   .about p { margin: 0 0 12px; }
@@ -102,6 +109,7 @@
         <h3><img src="/soot-and-summer/media/app-icon.png" alt="">Soot &amp; Summer</h3>
         <ul class="tags"><li>Android</li><li>Free on Google Play</li></ul>
         <p>Screen pets: two little cats that live over your apps. Summer, an orange tabby, and Soot, a black cat, wander along the bottom of your screen, nap, groom and chase each other. Pet them, carry them, try on hats.</p>
+        <p>Summer and Soot are free, with a yellow lab and a red panda to keep them company. One-time packs add more: wild cats and cat breeds, dogs, backyard animals like raccoons and squirrels, and hoppers like bunnies, frogs and kangaroos.</p>
         <a class="btn" href="https://soot-and-summer.com/">Visit Soot &amp; Summer</a>
         <a class="btn ghost" href="https://play.google.com/store/apps/details?id=com.realvachie.sootandsummer">Google Play</a>
         <a class="btn ghost" href="https://www.instagram.com/soot_and_summer/">Instagram</a>
@@ -147,6 +155,27 @@
       </div>
     </article>
 
+  </section>
+
+  <section id="for-us" aria-labelledby="for-us-h">
+    <h2 id="for-us-h" class="small-h">Made for us</h2>
+    <p class="small-lead">Little apps we built quickly and cheaply because we needed them. They're for our own phones, not for download, but they show how quickly a small idea can become a real app.</p>
+    <div class="tools">
+      <article class="project">
+        <div class="body">
+          <h3>Smoke Check</h3>
+          <ul class="tags"><li>Android widget</li><li>Personal use</li></ul>
+          <p>When the sky turns orange, one tap on a home-screen widget shows the air quality where you are and all around you, on a map, with which way the smoke gets worse. It only checks when you tap, so it costs nothing in between.</p>
+        </div>
+      </article>
+      <article class="project">
+        <div class="body">
+          <h3>Live Radar</h3>
+          <ul class="tags"><li>Android</li><li>Personal use</li></ul>
+          <p>A rain radar that keeps itself up to date while it's open: the last hour of rain plays as a loop, and each new radar scan slips in on its own. A clock up top says how fresh the radar is and turns red when it's running behind.</p>
+        </div>
+      </article>
+    </div>
   </section>
 
   <section id="about" class="about">
