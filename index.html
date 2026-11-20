@@ -84,6 +84,7 @@
   @media (min-width: 760px) { .tools { grid-template-columns: 1fr 1fr; } }
   .tools .project { margin-bottom: 0; }
   .tools .project h3 { font-size: 22px; }
+  .tool-shot { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: top; border-bottom: 1px solid var(--line); }
 
   .about { color: var(--muted); max-width: 40em; }
   .about h2 { color: var(--text); }
@@ -169,6 +170,7 @@
         </div>
       </article>
       <article class="project">
+        <img class="tool-shot" src="media/live-radar.webp" alt="Live Radar: heavy rain over the San Francisco Bay Area, with the time and when the radar last updated">
         <div class="body">
           <h3>Live Radar</h3>
           <ul class="tags"><li>Android</li><li>Personal use</li></ul>
